@@ -189,6 +189,10 @@ Install agent and disable all firewall options
 
 installing agent
 
+Many resourced adde in resource group
+
+![image](https://github.com/user-attachments/assets/9350df84-85dd-4c41-bd51-58d2f2555c2e)
+
 
 ![image](https://github.com/user-attachments/assets/6d3c938d-e91b-4831-9e45-3cda4683e28d)
 
