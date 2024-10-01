@@ -79,4 +79,116 @@ After installation of other script, it will open a browser with configuration ch
 
 ![image](https://github.com/user-attachments/assets/91db57d8-2f9f-4cac-b86e-756121214628)
 
+Next step is to login with Azure Credentials
+
+It will popup a code and ask to login to azure account
+
+
+![image](https://github.com/user-attachments/assets/77c10b6f-19fd-4dc6-b4a7-834dbff67016)
+
+Moving to discovery part
+
+![image](https://github.com/user-attachments/assets/b8a9ea32-5c19-4030-bc13-72b788562fec)
+
+![image](https://github.com/user-attachments/assets/e9898954-d491-4a8c-9316-6c1410a0e4ed)
+
+
+Next we need to choose our resource to migrate to Azure
+
+![image](https://github.com/user-attachments/assets/d89a6529-b5d6-4b78-86c2-0846d497ba13)
+
+
+I have created another AWS Windows VM to migrate to Azure
+![image](https://github.com/user-attachments/assets/dfc49ec8-9874-4b89-9e83-addb5eb9f08c)
+
+
+
+![image](https://github.com/user-attachments/assets/1b484478-1c09-4d5d-a8f0-7f9e7a029e91)
+
+Below new EC2 Server I selected to migrate
+
+![image](https://github.com/user-attachments/assets/17391f3b-413b-4262-a069-3e91ed3a8b38)
+
+![image](https://github.com/user-attachments/assets/0e79f508-6f56-47df-a521-ecab063661c9)
+
+
+Make sure that you VM got appropriate in bound rule for 5985, otherwise you will get error
+
+![image](https://github.com/user-attachments/assets/0ac1b928-5da1-4567-bc8b-b8eb0018d00e)
+
+![image](https://github.com/user-attachments/assets/0e4d9baa-685a-47d9-9c46-f3d1677779ba)
+
+start discovery.. It can take some time
+
+![image](https://github.com/user-attachments/assets/dfbd5433-902a-43b0-92d2-1bd5f7cd871c)
+
+
+Discovery got completed
+
+![image](https://github.com/user-attachments/assets/028975b3-3f33-4e97-9d42-1a7a11fc2ee0)
+
+![image](https://github.com/user-attachments/assets/91c6d4c4-222d-4d26-883e-26bb43d56e5e)
+
+![image](https://github.com/user-attachments/assets/af253bf4-4e07-4894-bd20-364420c4e716)
+
+![image](https://github.com/user-attachments/assets/c1e3e75b-3f46-47e1-8fd8-bfdce8112b55)
+
+Next step is to do assessment
+![image](https://github.com/user-attachments/assets/8e87b7d2-63a5-4ac2-9918-d4e5a219fb4b)
+
+![image](https://github.com/user-attachments/assets/e3db40b0-2fd0-4fe3-9cc8-4b07e74b857e)
+
+![image](https://github.com/user-attachments/assets/6d4fad3f-94b9-45db-8194-0df702e663a5)
+
+![image](https://github.com/user-attachments/assets/ccaa3f34-437d-45c5-a09f-35bc95653695)
+
+
+![image](https://github.com/user-attachments/assets/0f573a50-d1dd-403d-b32e-9a8c6790a711)
+
+
+Additional log analyst workspace to be installed
+
+![image](https://github.com/user-attachments/assets/62aabe60-e3bf-4c09-87ea-ff606d596446)
+
+![image](https://github.com/user-attachments/assets/83b8567b-9f66-47ba-a4b0-ef20b8822062)
+
+
+![image](https://github.com/user-attachments/assets/c0df49e5-511a-4688-bddf-379df3802543)
+
+![image](https://github.com/user-attachments/assets/4800555a-7974-4251-b5f7-7b02a543d624)
+
+Assessment is completed
+
+
+![image](https://github.com/user-attachments/assets/73870b4e-931e-435f-9751-e4d8d93aade9)
+
+
+Now we will start migration process
+
+![image](https://github.com/user-attachments/assets/2b9117aa-3aa4-44c7-8bf9-62aa069041e0)
+
+
+We need to create new replicating VM in Azure
+
+![image](https://github.com/user-attachments/assets/201c7695-ed00-483a-8b4c-b3557c1931e1)
+
+![image](https://github.com/user-attachments/assets/939b383a-120d-4257-a022-aa194b80e105)
+
+![image](https://github.com/user-attachments/assets/eec4f3ed-f096-4131-a3c9-6db72a9c2dd0)
+
+
+Creating a replication server in AWS above windows 2016
+
+Server created
+![image](https://github.com/user-attachments/assets/a69f19ac-3087-4b7a-86d3-a85b046a55e1)
+
+
+
+
+Install agent and disable all firewall options
+
+installing agent
+
+
+![image](https://github.com/user-attachments/assets/6d3c938d-e91b-4831-9e45-3cda4683e28d)
 
