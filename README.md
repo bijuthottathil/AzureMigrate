@@ -57,7 +57,7 @@ Key will be downloaded in your machine. Please note down the key
 ![image](https://github.com/user-attachments/assets/c3e7a2d0-9d44-4143-aff7-bbefd8925a2e)
 
 
-Now we need to create one EC2 instance in AWS. This EC2 machine  will be migrated to Azure in this tutorial
+Now we need to create one EC2 instance in AWS. This EC2 machine  will used as appliance server to support migration activity
 
 ![image](https://github.com/user-attachments/assets/a65dddfd-8a4f-4f50-a10d-24cf92d96e74)
 ![image](https://github.com/user-attachments/assets/6ce45fea-1e49-4210-ab0f-4b2adc42a696)
