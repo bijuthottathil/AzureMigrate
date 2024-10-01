@@ -192,3 +192,27 @@ installing agent
 
 ![image](https://github.com/user-attachments/assets/6d3c938d-e91b-4831-9e45-3cda4683e28d)
 
+
+we need to setup static ip
+
+![image](https://github.com/user-attachments/assets/de0fe1f3-f4f0-4fe6-a011-357625641218)
+
+instead of autamatic ip, we need to set static ip
+
+![image](https://github.com/user-attachments/assets/c7444e0c-f490-48ef-bb5d-e8f0952e96ea)
+
+After setting ip address, re run done
+
+![image](https://github.com/user-attachments/assets/0a63680e-db9f-4afc-97a1-1823abe37271)
+
+![image](https://github.com/user-attachments/assets/8e7ce6ad-2c44-465b-8192-b3fec8bc8ba5)
+
+![image](https://github.com/user-attachments/assets/b6ff6f38-c4d7-442c-b26d-625737c9dfee)
+
+
+![image](https://github.com/user-attachments/assets/8c0bf2fc-6158-41aa-8be4-051c953a79d7)
+
+
+![Uploading image.png…]()
+
+Unfortunatley, due to cost in personal subscription, I could not complete pending steps. I was very close to complete migration. Around 6 hours I spend so far
