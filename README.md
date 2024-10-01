@@ -1,5 +1,41 @@
 # Setting up Azure Migrate Appliance for Seamless VM Migration to Azure
 
+
+Steps involved
+
+Steps:
+Assessment:  Done
+
+a. Discovery: Use Azure Migrate to discover and assess your AWS VMs. This involves installing the Azure Migrate appliance in your AWS environment to gather information about your VMs.
+
+b. Assessment: Run an assessment in Azure Migrate to evaluate compatibility, performance, and dependencies of your AWS VMs for migration to Azure. This step helps in understanding the resources needed in Azure for a successful migration.
+
+Prepare for Migration: Done
+
+a. Create Azure Resources: Set up the necessary resources in Azure, including networking, storage, and VM configurations based on the assessment recommendations.
+
+b. Azure Migrate Agent Installation: Install the Azure Migrate replication agent on the AWS VMs you plan to migrate. This enables replication of the VM data to Azure. 
+
+Replication: Pending. Due to space issue in the replication VM, I could not continue with Replication steps mentioned next
+
+a. Configure Replication: Set up replication for the AWS VMs in Azure Migrate. This involves specifying replication settings, such as target Azure region, storage account, and replication frequency.
+
+b. Start Replication: Initiate the replication process to begin copying the data from AWS to Azure. Ensure that the data remains synchronized during the migration.
+
+Migration:
+
+a. Test Migration: Perform a test migration of the replicated VM to Azure. This step validates the migration process, ensuring that the VM can run successfully in Azure.
+
+b. Cutover: When satisfied with the test migration, plan and execute the final cutover. This involves stopping the replication, making the final data sync, and starting the Azure VMs to replace the AWS instances.
+
+Validation and Post-Migration Tasks:
+
+a. Validation: Verify that the migrated Azure VMs are functioning as expected and perform necessary tests to ensure all applications and services are working correctly.
+
+b. Clean-Up: Decommission the AWS VMs, remove any unnecessary resources, and finalize the migration process.
+
+
+
 New Resource group created to keep Azure Migrate project
 
 
