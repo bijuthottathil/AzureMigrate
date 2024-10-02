@@ -255,4 +255,4 @@ After setting ip address, re run done
 
 ![Uploading image.png…]()
 
-Unfortunatley, due to cost in personal subscription, I could not complete pending steps. I was very close to complete migration. Around 6 hours I spend so far
+Unfortunatley, due to the shortage of 600GB space in replica VM, I could not complete pending steps. I will be doing pending steps in few days
